@@ -1,0 +1,28 @@
+
+
+    .imag{
+        width: 500px;
+        height: auto;
+    }
+
+    .imagM{
+        width: 200px;
+        height: auto;
+        padding-right: 40px;
+    }
+
+
+
+    @media (max-width: 499px) {
+
+        .imag{
+            display: none;
+        }
+    }
+    
+    @media(min-width: 500px) {
+
+        .imagM{
+            display: none;
+        }
+    }
