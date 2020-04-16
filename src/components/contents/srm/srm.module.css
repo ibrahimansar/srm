@@ -1,7 +1,8 @@
 .cdiv{
     color: #00A9CC;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 100px;
+    padding-top: 0% ;
     font-size: 90px;
     height: 800px;
+    width: 100%;
 }
