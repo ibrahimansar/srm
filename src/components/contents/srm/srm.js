@@ -6,7 +6,8 @@ const srm =()=>{
 return(
      <div className= {classes.cdiv}>
 
-          <Slider slides={images}/>
+         <Slider slides={images}/>     
+
      </div>
 );
 }
