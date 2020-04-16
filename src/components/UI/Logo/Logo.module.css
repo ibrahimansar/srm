@@ -1,11 +1,11 @@
 
 
-    .imag{
+    .imagM{
         width: 500px;
         height: auto;
     }
 
-    .imagM{
+    .imag{
         width: 200px;
         height: auto;
         padding-right: 40px;
@@ -15,14 +15,14 @@
 
     @media (max-width: 499px) {
 
-        .imag{
+        .imagM{
             display: none;
         }
     }
     
     @media(min-width: 500px) {
 
-        .imagM{
+        .imag{
             display: none;
         }
     }

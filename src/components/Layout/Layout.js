@@ -4,9 +4,9 @@ import classes from './Layout.module.css';
 import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
 import Aux from '../../hoc/Auxiliary';
 import Srm from '../contents/srm/srm';
-import Whysrm from '../contents/srm/srm';
-import Branches from '../contents/srm/srm';
-import Contact from '../contents/srm/srm';
+import Whysrm from '../contents/whysrm/whysrm';
+import Branches from '../contents/branches/branches';
+import Contact from '../contents/contact/contact';
 
 class Layout extends Component {
     state = {

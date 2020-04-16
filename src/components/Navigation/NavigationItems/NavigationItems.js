@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import classes from './NavigationItems.module.css';
+import Button from '../../UI/Button/Button';
 
 class NavigationItems extends Component {
   scrollToTop = () => {
