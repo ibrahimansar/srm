@@ -31,9 +31,9 @@ class Layout extends Component {
                     open={this.state.showSideDrawer}
                     closed={this.sideDrawerClosedHandler} />
                 <main className={classes.Content}>   
-                        <div id="srm">
+                        {/* <div id="srm">
                            <Srm />
-                         </div>  
+                         </div>   */}
 
                          <div id="whysrm">
                            <Whysrm />
