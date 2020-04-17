@@ -6,6 +6,9 @@ const SliderContent = styled.div`
   transition: transform ease-out ${props => props.transition}s;
   height: 100%;
   width: ${props => props.width}px;
+  @media(max-width: 499px){
+    height : 45%;
+  }
   display: flex;
 `
 
