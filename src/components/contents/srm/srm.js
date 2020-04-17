@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './srm.module.css';
 import Slider from './Slider/Slider';
-import Image1 from '../../../assets/images/png.png'
 
 const srm =()=>{
 return(
