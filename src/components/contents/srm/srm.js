@@ -6,8 +6,10 @@ const srm =()=>{
 return(
      <div className= {classes.cdiv}>
 
-         <Slider slides={images}/>     
-
+         <Slider slides={images}/> 
+         <div className ={classes.para}>    
+         <p>Sabura Readymades is a place where we have a lot of good quality cloths</p>
+         </div>
      </div>
 );
 }

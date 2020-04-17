@@ -20,7 +20,7 @@ const Dots = ({ slides, activeIndex }) => (
       position: absolute;
       bottom: 25px;
       @media(max-width : 499px){
-          bottom: 410px;
+          bottom: 20px;
       }
       width: 100%;
       display: flex;

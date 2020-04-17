@@ -76,7 +76,11 @@ const Slider = props => {
 const SliderCSS = css`
   position: relative;
   height: 100vh;
-  width: 100%;
+  @media(max-width: 499px){
+    height: 60vh;
+  }
+  border: 3px solid white;
+  width: 90%;
   margin: 0 auto;
   overflow: hidden;
 `
