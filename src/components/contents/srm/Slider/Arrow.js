@@ -12,11 +12,11 @@ const Arrow = ({ direction, handleClick }) => (
       position: absolute;
       top: 50%;
       @media(max-width: 499px){
-        top: 45%;
+        top: 55%;
       }
       ${direction === 'right' ? `right: 25px` : `left: 25px`};
-      height: 50px;
-      width: 50px;
+      height: 10px;
+      width: 10px;
       justify-content: center;
       background: white;
       border-radius: 50%;

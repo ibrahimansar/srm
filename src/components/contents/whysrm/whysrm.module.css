@@ -1,7 +1,55 @@
 .cdiv{
     color: #00A9CC;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 10%;
-    font-size: 90px;
-    position: fixed;
+    font-family: 'lato', sans-serif;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 69px;
+    font-weight: 50;
+}
+
+.h6{
+    text-align: left;
+    height: 50px;
+    color:white;
+    letter-spacing: 2px;
+    font-family: 'lato',sans-serif;
+    border-left: 4px solid #00A9CC;
+    background-color: transparent;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.para{
+    margin-left: 20px;
+}
+
+
+@media(max-width: 499px){
+    .cdiv{
+        margin-top: 120px;
+        padding-left:20px;
+        font-size: 39px;
+        font-weight: 50;
+    }
+
+    .h6{
+        height: 65px;
+        color:white;
+        letter-spacing: 1px;
+        font-family: 'lato',sans-serif;
+        border-left: 2px solid #00A9CC;
+        background-color: transparent;
+        margin-left: 60px;
+        margin-right: 40px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 50;
+    }
+
+    .para{
+        margin-left: 15px;
+    }
 }
