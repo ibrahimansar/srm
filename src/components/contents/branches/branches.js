@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import classes from './branches.module.css';
 import Output from './Output/Output';
+import Modal from '../../UI/Modal/Modal';
+import Aux from '../../../hoc/Auxiliary';
+import BranchDetails from './BranchDetails/BranchDetails'
 
 class Branches extends  Component{
     state={
@@ -49,10 +52,18 @@ class Branches extends  Component{
                 id: '9',
                 name : "Hawwa Store",
                 address: "tpt"
-            },
-
-        ]
+            }
+        ],
+        modalOpen: false
     };
+
+    modalHandler=()=>{
+        this.setState({modalOpen: true})
+    }
+
+    modalCancelHandler=()=>{
+        this.setState({modalOpen: false})
+    }
 
     render(){
        const branches = (
@@ -69,11 +80,16 @@ class Branches extends  Component{
             </div>
           );
           
-            return(
+            return(   
+             <Aux>   
             <div className={classes.cdiv}>
                 <h1>Our branches</h1>
                {branches}
-            </div>
+            </div>  
+               <Modal show={this.state.modalopen} modalClosed={this.modalCancelHandler}>
+                 
+               </Modal>    
+            </Aux>          
         )
 
     }
