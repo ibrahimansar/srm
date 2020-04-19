@@ -32,7 +32,7 @@ class NavigationItems extends Component {
                 offset={-70}
                 duration={500}
               >
-                Why SRM
+                Why us
               </Link>
               <Link
                 onClick={this.props.clicked}
@@ -56,7 +56,6 @@ class NavigationItems extends Component {
               >
                 Contact
               </Link> 
-              <button className={classes.btn} onClick={this.props.clicked}>^</button>
            </div>   
       </nav>
     );

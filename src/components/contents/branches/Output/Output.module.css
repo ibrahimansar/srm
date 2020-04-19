@@ -11,7 +11,7 @@
 
 .h{
     margin : 10px 0px;
-    color: teal;
+    color:#00a9cc;
     font-size: 40px;
 }
 
@@ -32,8 +32,12 @@
         width: 80%;
     }
 
-    h3{
+    .h{
         margin : 10px 0px;
-        font-size: 29px;
+        font-size: 25px;
+    }
+
+    .pa{
+        font-size: 15px;
     }
 }
