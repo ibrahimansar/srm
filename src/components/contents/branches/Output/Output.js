@@ -3,14 +3,14 @@ import classes from './Output.module.css';
 
 const output = props => {
     return(
-        <div className={classes.output}>
-            <h3>
+        <button className={classes.output} >
+            <div className={classes.h}>
                 {props.name}
-            </h3>
-            <div className={classes.p}>
+            </div>
+            <div className={classes.pa}>
                 {props.address}
             </div>
-        </div>
+        </button>
     );
 };
 

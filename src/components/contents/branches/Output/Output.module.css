@@ -1,18 +1,21 @@
 .output{
     width: 60%;
     margin: 16px auto;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black;
     padding: 10px;
     text-align: center;
     font-family: 'lato', sans-serif;
+    background-color: transparent;
 }
 
-h3{
+.h{
     margin : 10px 0px;
+    color: teal;
+    font-size: 40px;
 }
 
-.p{
+.pa{
     margin: 10px 0px;
     padding: 0px 70px;
     align-items: center;
@@ -20,14 +23,13 @@ h3{
     font-size: 20px;
 }
 
+.output:hover{
+    box-shadow: 2px 4px 12px black;
+}
+
 @media(max-width: 499px){
     .output{
         width: 80%;
-        margin: 16px auto;
-        border: 1px solid #eee;
-        box-shadow: 0 2px 3px #ccc;
-        padding: 10px;
-        text-align: center;
     }
 
     h3{
