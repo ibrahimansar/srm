@@ -1,0 +1,37 @@
+.output{
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+
+h3{
+    margin : 10px 0px;
+}
+
+.p{
+    margin: 10px 0px;
+    padding: 0px 70px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+@media(max-width: 499px){
+    .output{
+        width: 80%;
+        margin: 16px auto;
+        border: 1px solid #eee;
+        box-shadow: 0 2px 3px #ccc;
+        padding: 10px;
+        text-align: center;
+    }
+
+    h3{
+        margin : 10px 0px;
+        font-size: 29px;
+    }
+}

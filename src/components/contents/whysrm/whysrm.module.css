@@ -24,15 +24,28 @@
 
 .para{
     margin-left: 20px;
+    animation-name: slideInLeft;
 }
 
+
+@keyframes slideInLeft {
+    from {
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
 
 @media(max-width: 499px){
     .cdiv{
         margin-top: 120px;
         padding-left:20px;
         font-size: 39px;
-        font-weight: 50;
+        font-weight: 400;
     }
 
     .h6{
