@@ -15,8 +15,8 @@ const Arrow = ({ direction, handleClick }) => (
         top: 55%;
       }
       ${direction === 'right' ? `right: 25px` : `left: 25px`};
-      height: 10px;
-      width: 10px;
+      height: 30px;
+      width: 30px;
       justify-content: center;
       background: white;
       border-radius: 50%;

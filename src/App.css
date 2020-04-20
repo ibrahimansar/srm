@@ -10,3 +10,8 @@
   height: 5900px;
 }
 
+@media(max-width:499px){
+  .App{
+    height: 5000px;
+  }
+}
