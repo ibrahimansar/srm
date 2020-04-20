@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import classes from './branches.module.css';
 import Output from './Output/Output';
-import Modal from '../../UI/Modal/Modal';
-import Aux from '../../../hoc/Auxiliary';
-import BranchDetails from './BranchDetails/BranchDetails'
+
 
 class Branches extends  Component{
     state={
@@ -11,59 +9,87 @@ class Branches extends  Component{
             {
                 id : '1',
                 name: 'Sabura Readymades Store',
-                address: "tpt",
+                street: "Jinna Road-I",
+                district:" Tirupattur",
+                state: "Tamil Nadu 635601",
+                phone: "+91 9791420412",
+                photo: require("../../../assets/images/IMG1.jpg")
             },
             {
                 id : '2',
                 name: "Jameela Garments",
-                address: "tpt"
+                street: "Jinna Road-I",
+                district:" Tirupattur",
+                state: "Tamil Nadu 635601",
+                phone: "",
+                photo: {}
+                
             },
             {
                 id: '3',
                 name : "Bombay Readymades",
-                address: "tpt"
+                street: "Jinna Road-I",
+                district:" Tirupattur",
+                state: "Tamil Nadu 635601",
+                phone: "",
+                photo: {}
             },
             {
                 id: '4',
                 name : "Sony Mens and Boys wear",
-                address: "tpt"
+                street: "Jinna Road-I",
+                district:" Tirupattur",
+                state: "Tamil Nadu 635601",
+                phone: "",
+                photo: {}
             },
             {
                 id: '5',
                 name : "Mens City",
-                address: "tpt"
+                street: "Jinna Road-I",
+                district:" Tirupattur",
+                state: "Tamil Nadu 635601",
+                phone: "",
+                photo: {}
             },
             {
                 id: '6',
                 name : "Garments City",
-                address: "tpt"
+                street: "Jinna Road-I",
+                district:" Tirupattur",
+                state: "Tamil Nadu 635601",
+                phone: "",
+                photo: {}
             },
             {
                 id: '7',
                 name : "Fasion City",
-                address: "tpt"
+                street: "Jinna Road-I",
+                district:" Tirupattur",
+                state: "Tamil Nadu 635601",
+                phone: "",
+                photo: {}
             },
             {
                 id: '8',
                 name : "Safire tex",
-                address: "tpt"
+                street: "Jinna Road-I",
+                district:" Tirupattur",
+                state: "Tamil Nadu 635601",
+                phone: "",
+                photo: {}
             },
             {
                 id: '9',
                 name : "Hawwa Store",
-                address: "tpt"
+                street: "Jinna Road-I",
+                district:" Tirupattur",
+                state: "Tamil Nadu 635601",
+                phone: "",
+                photo: {}
             }
         ],
-        modalOpen: false
     };
-
-    modalHandler=()=>{
-        this.setState({modalOpen: true})
-    }
-
-    modalCancelHandler=()=>{
-        this.setState({modalOpen: false})
-    }
 
     render(){
        const branches = (
@@ -72,24 +98,23 @@ class Branches extends  Component{
                 return (
                   <Output
                     name={branch.name}
-                    address={branch.address}
+                    street={branch.street}
+                    district={branch.district}
+                    state={branch.state}
                     key={branch.id}
+                    phone={branch.phone}
+                    photo={branch.photo}
                   />
                 );
               })}
             </div>
           );
           
-            return(   
-             <Aux>   
+            return(    
             <div className={classes.cdiv}>
                 <h1>Our branches</h1>
                {branches}
-            </div>  
-               <Modal show={this.state.modalopen} modalClosed={this.modalCancelHandler}>
-                 
-               </Modal>    
-            </Aux>          
+            </div>             
         )
 
     }

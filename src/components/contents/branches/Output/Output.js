@@ -1,18 +1,22 @@
-import React,{Component} from 'react';
+import React from 'react';
 import classes from './Output.module.css';
 
-class Output extends Component{
-    render(){        
-        return(
-        <button className={classes.output} >
-            <div className={classes.h}>
-                {this.props.name}
+
+const  output = (props) =>{
+    return(
+        <div className={classes.main}>
+            <div className={classes.d1}>
+              <img src= {props.photo}/>
             </div>
-            <div className={classes.pa}>
-                {this.props.address}
+            <div className={classes.d2}>
+                    <h2>{props.name}</h2>
+                    <h6>{props.phone}</h6>
+                    <h6>{props.street}, </h6>
+                    <h6>{props.district}, </h6>
+                    <h6>{props.state}</h6>
+                </div>
             </div>
-        </button>
-    );
-}   
+    )
 }
-export default Output;
+
+export default output;

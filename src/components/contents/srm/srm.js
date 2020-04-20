@@ -22,6 +22,9 @@ return(
 );
 }
 
-const images = [require('../../../assets/images/IMG1.jpg'), require('../../../assets/images/IMG2.jpg'), require('../../../assets/images/IMG3.jpg'), require('../../../assets/images/IMG4.JPG')];
+const images = [require('../../../assets/images/IMG1.jpg'),
+                require('../../../assets/images/IMG2.jpg'),
+                require('../../../assets/images/IMG3.jpg'), 
+                require('../../../assets/images/IMG4.JPG')];
 
 export default srm;

@@ -1,12 +1,12 @@
 .App {
   text-align: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(#000503, #003c49, black);  
+  background-image: linear-gradient(#000503, #003c49, #003c49);  
   margin-bottom:0;
   padding-top: 0;
   padding-bottom: 0;
   border-top: none;
   position: relative;  
-  height: 5000px;
+  height: 100%;
 }
 
