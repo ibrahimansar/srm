@@ -1,1 +1,4 @@
 theme: jekyll-theme-midnight
+
+- name: validate-license-action
+  uses: datreeio/validate-license-action@v1.0.0
